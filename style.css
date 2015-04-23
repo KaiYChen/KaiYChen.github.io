@@ -107,11 +107,11 @@ h2{
 }
 
 #EDUCATION{
-	background: url(images/networks.jpg) no-repeat fixed;
-	background-position: 350px 50px;
-	background-color: black;
+	background: url(images/GI.jpg) 50% 0 no-repeat fixed;
+	/*background-position: 350px 50px;
+	background-color: black;*/
 	color: white;
-	height: 1300px;
+	height: 1000px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 100px 0 0 0;
