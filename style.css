@@ -107,7 +107,9 @@ h2{
 }
 
 #EDUCATION{
-	background: url(images/networks.jpg) 50% 0 no-repeat fixed;
+	background: url(images/networks.jpg) no-repeat fixed;
+	background-position: 350px 50px;
+	background-color: black;
 	color: white;
 	height: 1300px;
 	margin: 0 auto;
@@ -128,6 +130,8 @@ h2{
 
 #PUBLICATION{
 	background: url(images/Fractal.png) 100% 0 no-repeat fixed;
+	background-color: black;
+	background-position: 350px 50px;
 	color: white;
 	height: 1300px;
 	padding: 100px 0 0 0;
