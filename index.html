@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Kai-Yuan Chen's Website</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
+<link href="hover.css" rel="stylesheet" media="all">
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 <script type="text/javascript" src="scripts/jquery.parallax-1.1.3.js"></script>
 <script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
@@ -16,7 +17,7 @@ $(document).ready(function(){
 	//xPosition - Horizontal position of the element
 	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
 	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-	$('#intro').parallax("50%", 0.1);
+	$('#KAIYUANCHEN').parallax("50%", 0.1);
 	$('#second').parallax("50%", 0.1);
 	$('.bg').parallax("50%", 0.4);
 	$('#third').parallax("50%", 0.3);
@@ -27,51 +28,61 @@ $(document).ready(function(){
 
 <body>
 	<ul id="nav">
-		<li><a href="#intro" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
-	    <li><a href="#second" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
-	    <li><a href="#third" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
-	    <li><a href="#fifth" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+	    <li id="pages"><a href="#KAIYUANCHEN" class="hvr-wobble-horizontal" title="KAI-YUAN CHEN">KAI-YUAN CHEN</a></li>
+	    <li id="pages"><a href="#EDUCATION" class="hvr-wobble-horizontal" title="EDUCATION">EDUCATION</a></li>
+	    <li id="pages"><a href="#PUBLICATION" class="hvr-wobble-horizontal" title="PUBLICATION">PUBLICATION</a></li>
+	    <li id="pages"><a href="#CONTACT" class="hvr-wobble-horizontal" title="CONTACT ME">CONTACT ME</a></li>
 	</ul>
 	
-	<div id="intro">
-		<div class="story">
-	    	<div class="float-right">
-			<h2>Kai-Yuan Chen's Website</h2>
-	        <p>This section has a background that moves slightly slower than the user scrolls. This is achieved by changing the top position of the background for every pixel the page is scrolled.</p>
-	        </div>
-	    </div> <!--.story-->
-	</div> <!--#intro-->
-	
-	<div id="second">
-		<div class="story">
-		    <div class="bg"></div>
-	    	<div class="float-right">
-	            <h2>Multiple Backgrounds</h2>
-	            <p>The multiple backgrounds applied to this section are moved in a similar way to the first section -- every time the user scrolls down the page by a pixel, the positions of the backgrounds are changed.</p>
-	            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris, volutpat elementum enim urna eget odio. Donec egestas aliquet facilisis. Nunc eu nunc eget neque ornare fringilla. Nam vel sodales lectus. Nulla in pellentesque eros. Donec ultricies, enim vitae varius cursus, risus mauris iaculis neque, euismod sollicitudin metus erat vitae sapien. Sed pulvinar.</p>
-	        </div>
-	    </div> <!--.story-->
-	    
-	</div> <!--#second-->
-	
-	<div id="third">
+	<div id="KAIYUANCHEN">
 		<div class="story">
 	    	<div class="float-left">
-	        	<h2>What Happens When JavaScript is Disabled?</h2>
-	            <p>The user gets a slap! Actually, all that jQuery does is moves the backgrounds relative to the position of the scrollbar. Without it, the backgrounds simply stay put and the user would never know they are missing out on the awesome! CSS2 does a good enough job to still make the effect look cool.</p>
+			<h2>Kai-Yuan Chen's Website</h2>
 	        </div>
 	    </div> <!--.story-->
-	</div> <!--#third-->
+	</div> <!--#KAIYUANCHEN-->
 	
-	<div id="fifth">
+	<div id="EDUCATION">
+		<div class="story">
+	    	<div class="float-left">
+	    	    <h2>KAI-YUAN CHEN</h2>
+	            <p>Ph.D Candidate<br>Irwin M. and Joan K. Jacobs Fellow<br>National Studying Abroad Scholarship<br> School of Electrical and Computer Engineering, Cornell University</p>            
+	            <p>M.Eng<br> Department of Biomedical Engineering, Cornell University</p> 
+	            <p>M.S<br>First-Class Fellowship<br>Department of Electrical Engineering, National Taiwan University</p>      
+	            <p>B.S<br> Department of Electrical Engineering, National Cheng Kung University</p>
+	        </div>
+	    </div> <!--.story-->
+	</div> <!--#second-->
+	
+	<div id="PUBLICATION">
+		<div class="story">
+	    	<div class="float-left">
+	        	<h2>Journal Paper</h2>
+	        	<ol>
+                    <li id="publication">P. Bu, L. Wang, <em>K.Y. Chen</em>, N. Rakhilin, J. Sun, A. Closa, et al., "miR-1269 promotes metastasis and forms a positive feedback loop with TGF-beta," Nat Commun, vol. 6, p. 6879, 2015.</li>
+                    <li id="publication">Y.J. Shin, <em>K.Y. Chen</em>, A. H. Sayed, B. Hencey, and X. Shen, "Post-translational regulation enables robust p53 regulation," BMC Syst Biol, vol. 7, p. 83, 2013.</li>
+                    <li id="publication">P. Bu, <em>K.Y. Chen</em>, S. M. Lipkin, and X. Shen, "Asymmetric division: a marker for cancer stem cells?," Oncotarget, vol. 4, p. 950, 2013.</li>
+                    <li id="publication">P. Bu, <em>K.Y. Chen</em>, J. H. Chen, L. Wang, J. Walters, Y. J. Shin, et al., "A microRNA miR-34a-regulated bimodal switch targets Notch in colon cancer stem cells," Cell Stem Cell, vol. 12, pp. 602-615, 2013.</li>
+	            </ol>
+	            <h2>Conference Paper</h2>
+                <ol>
+                    <li id="publication"><em>K.Y. Chen</em>, X. Liu, P. Bu, C. S. Lin, N. Rakhilin, J. W. Locasale, et al., "A metabolic signature of colon cancer initiating cells," Conf Proc IEEE Eng Med Biol Soc, vol. 2014, pp. 4759-62, 2014.</li>
+                    <li id="publication"><em>K.Y. Chen</em>, D. J. Joe, J. B. Shealy, B. R. Land, and X. Shen, "A bio-inspired spatial patterning circuit," Conf Proc IEEE Eng Med Biol Soc, vol. 2014, pp. 86-9, 2014.</li>
+                    <li id="publication"><em>K.Y. Chen</em>, A. Lakhanpal, P. Bu, M. Witherspoon, S. Lipkin, M. Elowitz, et al., "A gradient modulated intercellular feedback controlling pattern formation inside intestinal crypts," q-bio.org, 2012.</li>
+	            </ol>
+	        </div>
+	    </div> <!--.story-->
+	</div> <!--#PUBLICATION-->
+	
+	<div id="CONTACT">
 		<div class="story">
 		    
 		    <h1>CONTACT ME</h1>
-	        <p id="name">KAI-YUAN CHEN</p>
-	        <p id="title">Ph.D Candidate<br>School of Electrical and Computer Engineering, Cornell University</p>
-	        <p id="contact">ROOM 302, Philips Hall, Cornell University, Ithaca, NY, 14850</p>     
+                <p id="name">KAI-YUAN CHEN</p>
+                <p id="title">Ph.D Candidate<br>School of Electrical and Computer Engineering, Cornell University</p>
+                <p id="contact">ROOM 302, Philips Hall, Cornell University, Ithaca, NY, 14850</p>     
 	        
-	        <p id="contact">Email:<a href="mailto:kc632@cornell.edu" title="kc632@cornell.edu">kc632 at cornell dot edu</a></p>
+                <p id="contact">Email:<a href="mailto:kc632@cornell.edu" title="kc632@cornell.edu">kc632 at cornell dot edu</a></p>
 	        
 	    </div> <!--.story-->
 	</div> <!--#fifth-->
