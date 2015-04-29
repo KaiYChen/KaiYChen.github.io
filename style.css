@@ -5,7 +5,6 @@ Author: Ian Lunn
 Twitter: @IanLunn
 Author URL: http://www.ianlunn.co.uk/
 Plugin URL: http://www.ianlunn.co.uk/plugins/jquery-parallax/
-
 License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike). Please attribute work to Ian Lunn simply by leaving these comments in the source code or if you'd prefer, place a link on your website to http://www.ianlunn.co.uk/.
 */
 
@@ -98,14 +97,14 @@ h2{
 }
 
 #KAIYUANCHEN{
-	background:url(images/chaos.jpg) 50% 0 no-repeat fixed;
+	/*background: url(images/GI.jpg) 100% 0 no-repeat fixed;*/
+	background-color: black;
+	background-position: 50px 50px;
 	color: white;
-	height: 800px;
-	margin: 0 auto;
-	padding: 0;
-	background-size: cover;
+	height: 1000px;
+	padding: 0px 0 0 0;
+    background-size: cover;
 }
-
 #EDUCATION{
 	background: url(images/GI.jpg) 50% 0 no-repeat fixed;
 	/*background-position: 350px 50px;
@@ -136,15 +135,13 @@ h2{
 	height: 1300px;
 	padding: 100px 0 0 0;
     background-size: cover;
-
 }
-
 #CONTACT{
-    background: #ccc url(images/Kai.jpg) 75% 97% no-repeat fixed;
-    background-size: 25%;
+    /*background: #ccc url(images/Kai.jpg) 75% 97% no-repeat fixed;
+    background-size: 25%;*/
 	height: 250px;
 	margin: 0 auto;
-	padding: 10px 0 0 0;
+	padding: 10px 0px 0 0;
 }
 
 .story{
